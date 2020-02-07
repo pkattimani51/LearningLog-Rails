@@ -1,4 +1,3 @@
-Rails-ajax
-==========
+Learning Log
 
-Demo-ajax
+Here we can add daily logs any any motivational statement.
