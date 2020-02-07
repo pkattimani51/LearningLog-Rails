@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dailylog.description %>
+</p>
+
+<p>
+  <strong>Daily quotes:</strong>
+  <%= @dailylog.daily_quotes %>
+</p>
+
+<%= link_to 'Edit', edit_dailylog_path(@dailylog) %> |
+<%= link_to 'Back', dailylogs_path %>
